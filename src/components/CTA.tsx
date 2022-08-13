@@ -1,0 +1,53 @@
+import { Link as ChakraLink, Button, Flex, Center } from '@chakra-ui/react'
+
+export const CTA = () => (
+  <Flex
+    flexDirection="row"
+    position={"fixed"}
+    bottom={0}
+    width="100%"
+    maxWidth="3xl"
+    py={3}
+    direction="column"
+    alignItems="center"
+    justifyContent="flex-start"
+  >
+    <Button
+      as={ChakraLink}
+      isExternal
+      href="https://chakra-ui.com"
+      variant="primary"
+      rounded="button"
+      flexGrow={1}
+      mx={2}
+      width="full"
+    >
+      Etherscan
+    </Button>
+    <Button
+      as={ChakraLink}
+      isExternal
+      href="https://github.com/vercel/next.js/blob/canary/examples/with-chakra-ui-typescript"
+      variant="secondary"
+      rounded="button"
+      flexGrow={3}
+      mx={2}
+      width="full"
+    >
+      Medium
+    </Button>
+    <Button
+      as={ChakraLink}
+      isExternal
+      href="https://github.com/vercel/next.js/blob/canary/examples/with-chakra-ui-typescript"
+      variant="tertiary"
+      rounded="button"
+      flexGrow={3}
+      mx={2}
+      width="full"
+    >
+      Telegram
+    </Button>
+  {/* </Container> */}
+  </Flex>
+)
