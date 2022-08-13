@@ -1,7 +1,7 @@
 import { Suspense, useRef } from 'react'
 import { OrbitControls, Center, SpotLight, useHelper } from '@react-three/drei'
 import { SpotLightHelper, AxesHelper } from 'three'
-import Model from './archdraco.jsx'
+import Model from './Archdraco.jsx'
   
 export default function Scene(){
     const spotlight = useRef()
